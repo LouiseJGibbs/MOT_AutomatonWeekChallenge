@@ -12,7 +12,6 @@ namespace RestfulBookerSpecflowUITests
     [Binding]
     public sealed class BookRoomSteps
     {
-        private readonly ScenarioContext _scenarioContext;
         private readonly TestData _testData = new TestData();
 
         public IWebElement BookRoomButton => TestUtilities.Driver.FindElement(By.XPath("//button[@class='btn btn-outline-primary float-right openBooking']"));
@@ -30,11 +29,6 @@ namespace RestfulBookerSpecflowUITests
         public IWebElement SubmitBookingButton => TestUtilities.Driver.FindElement(By.XPath("//button[@class='btn btn-outline-primary float-right book-room']"));
         public IWebElement NextMonth => TestUtilities.Driver.FindElement(By.XPath("//button[text()='Next']"));
         public IWebElement SuccessfulBookingMessage => TestUtilities.Driver.FindElement(By.XPath("//div[@class='form-row']//h3"));
-
-        public BookRoomSteps(ScenarioContext scenarioContext)
-        {
-            _scenarioContext = scenarioContext;
-        }
 
         [Given(@"at least 1 room exists in the hotel")]
         public void GivenAtLeastRoomExistsInTheHotel()

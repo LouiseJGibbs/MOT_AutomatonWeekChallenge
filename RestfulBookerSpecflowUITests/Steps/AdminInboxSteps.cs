@@ -14,7 +14,6 @@ namespace RestfulBookerSpecflowUITests
     [Binding]
     public sealed class AdminInboxSteps
     {
-        private readonly ScenarioContext _scenarioContext;
         public TestData _testData;
 
         public IWebElement MessagesInboxLink => TestUtilities.Driver.FindElement(By.XPath("//i[@class='fa fa-inbox']"));
@@ -29,9 +28,8 @@ namespace RestfulBookerSpecflowUITests
         public IWebElement MessageWindow => TestUtilities.Driver.FindElement(MessageWindowBy);
         public ReadOnlyCollection<IWebElement> MessageDetails => MessageWindow.FindElements(By.XPath("./div[@class='form-row']"));
 
-        public AdminInboxSteps(ScenarioContext scenarioContext, TestData testData)
+        public AdminInboxSteps(TestData testData)
         {
-            _scenarioContext = scenarioContext;
             _testData = testData;
         }
 

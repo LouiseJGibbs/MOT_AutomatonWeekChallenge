@@ -15,7 +15,6 @@ namespace RestfulBookerSpecflowUITests
     [Binding]
     public sealed class ContactUsSteps
     {
-        private readonly ScenarioContext _scenarioContext;
         private readonly TestData _testData = new TestData();
 
         public IWebElement ContactSection => TestUtilities.Driver.FindElement(By.XPath(".//div[@class='row contact']//div[@class='col-sm-5']"));
@@ -36,9 +35,8 @@ namespace RestfulBookerSpecflowUITests
         public IWebElement HeaderText => ContactSection.FindElement(By.XPath(".//h2"));
         public IReadOnlyCollection<IWebElement> ParagraphText => ContactSection.FindElements(By.XPath(".//p"));
 
-        public ContactUsSteps(ScenarioContext scenarioContext, TestData testData)
+        public ContactUsSteps(TestData testData)
         {
-            _scenarioContext = scenarioContext;
             _testData = testData;
         }
 
