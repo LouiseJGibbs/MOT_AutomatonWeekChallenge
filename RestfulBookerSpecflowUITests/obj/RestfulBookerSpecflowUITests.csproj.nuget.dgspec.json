@@ -1,0 +1,119 @@
+{
+  "format": 1,
+  "restore": {
+    "\\\\mm-fpvs-01\\home\\lgibbs\\My Documents\\GitHub\\RestfulBooker\\RestfulBooker\\RestfulBookerSpecflowUITests\\RestfulBookerSpecflowUITests.csproj": {}
+  },
+  "projects": {
+    "\\\\mm-fpvs-01\\home\\lgibbs\\My Documents\\GitHub\\RestfulBooker\\RestfulBooker\\RestfulBookerSpecflowUITests\\RestfulBookerSpecflowUITests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\mm-fpvs-01\\home\\lgibbs\\My Documents\\GitHub\\RestfulBooker\\RestfulBooker\\RestfulBookerSpecflowUITests\\RestfulBookerSpecflowUITests.csproj",
+        "projectName": "RestfulBookerSpecflowUITests",
+        "projectPath": "\\\\mm-fpvs-01\\home\\lgibbs\\My Documents\\GitHub\\RestfulBooker\\RestfulBooker\\RestfulBookerSpecflowUITests\\RestfulBookerSpecflowUITests.csproj",
+        "packagesPath": "C:\\Users\\lgibbs\\.nuget\\packages\\",
+        "outputPath": "\\\\mm-fpvs-01\\home\\lgibbs\\My Documents\\GitHub\\RestfulBooker\\RestfulBooker\\RestfulBookerSpecflowUITests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lgibbs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "http://mm-build-01:5000/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[88.0.4324.9600, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            },
+            "WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[26.14.313457.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

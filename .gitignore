@@ -24,3 +24,6 @@ RestfulBookerSpecflowUITests/bin/Debug/netcoreapp2.1/RestfulBookerSpecflowUITest
 .vs/RestfulBooker/DesignTimeBuild/.dtbcache
 RestfulBookerSpecflowUITests/bin/Debug/netcoreapp2.1/RestfulBookerSpecflowUITests.pdb
 RestfulBookerSpecflowUITests/bin/Debug/netcoreapp2.1/RestfulBookerSpecflowUITests.dll
+.vs/RestfulBooker/v16/TestStore/0/testlog.manifest
+.vs/RestfulBooker/v16/TestStore/0/000.testlog
+.vs/RestfulBooker/v16/.suo
